@@ -10,7 +10,7 @@ export const PopularCarPage: React.FC = () => {
     {
       name: "Koenigsegg",
       type: "Sport",
-      image: "/car1.png",
+      image: "/Car1.png",
       fuelCapacity: "90L",
       transmission: "Manual",
       capacity: "2 People",
@@ -20,7 +20,7 @@ export const PopularCarPage: React.FC = () => {
     {
       name: "Nissan GT-R",
       type: "Sport",
-      image: "/car2.png",
+      image: "/Car2.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",
@@ -31,7 +31,7 @@ export const PopularCarPage: React.FC = () => {
     {
       name: "Rolls-Royce",
       type: "Sedan",
-      image: "/hero1.png",
+      image: "/Hero1.png",
       fuelCapacity: "70L",
       transmission: "Manual",
       capacity: "4 People",
@@ -41,7 +41,7 @@ export const PopularCarPage: React.FC = () => {
     {
       name: "Nissan GT-R",
       type: "Sport",
-      image: "/car2.png",
+      image: "/Car2.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",

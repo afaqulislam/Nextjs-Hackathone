@@ -6,7 +6,7 @@ export const RecomendationCar: React.FC = () => {
     {
       name: "All New Rush",
       type: "SUV",
-      image: "/car.png",
+      image: "/Car.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",
@@ -17,7 +17,7 @@ export const RecomendationCar: React.FC = () => {
     {
       name: "CR  - V",
       type: "SUV",
-      image: "/car-1.png",
+      image: "/Car-1.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",
@@ -28,7 +28,7 @@ export const RecomendationCar: React.FC = () => {
     {
       name: "All New Terios",
       type: "SUV",
-      image: "/car-2.png",
+      image: "/Car-2.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",
@@ -39,7 +39,7 @@ export const RecomendationCar: React.FC = () => {
     {
       name: "CR  - V",
       type: "SUV",
-      image: "/car-3.png",
+      image: "/Car-3.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",
@@ -50,7 +50,7 @@ export const RecomendationCar: React.FC = () => {
     {
       name: "MG ZX Exclusice",
       type: "SUV",
-      image: "/car-4.png",
+      image: "/Car-4.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",
@@ -61,7 +61,7 @@ export const RecomendationCar: React.FC = () => {
     {
       name: "New MG ZS",
       type: "Hatchback",
-      image: "/car-5.png",
+      image: "/Car-5.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",
@@ -72,7 +72,7 @@ export const RecomendationCar: React.FC = () => {
     {
       name: "MG ZX Excite",
       type: "SUV",
-      image: "/car-6.png",
+      image: "/Car-6.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",
@@ -83,7 +83,7 @@ export const RecomendationCar: React.FC = () => {
     {
       name: "New MG ZS",
       type: "Hatchback",
-      image: "/car-7.png",
+      image: "/Car-7.png",
       fuelCapacity: "80L",
       transmission: "Manual",
       capacity: "2 People",
