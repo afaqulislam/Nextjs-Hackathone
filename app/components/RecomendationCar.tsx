@@ -1,6 +1,5 @@
 import React from "react";
 import { CarCard } from "./CarCard";
-import { CiHeart } from "react-icons/ci";
 
 export const RecomendationCar: React.FC = () => {
   const cars = [

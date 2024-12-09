@@ -52,12 +52,11 @@ export const PopularCarPage: React.FC = () => {
   ];
 
   useEffect(() => {
-    // Detect if the screen width is below 768px (small screens)
     const handleResize = () => {
       setIsMobile(window.innerWidth < 768);
     };
 
-    handleResize(); // Set initial state
+    handleResize();
     window.addEventListener("resize", handleResize);
 
     const interval = setInterval(() => {

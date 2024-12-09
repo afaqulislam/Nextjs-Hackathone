@@ -23,7 +23,7 @@ const HeroSection: React.FC = () => {
           </div>
           <div className="absolute bottom-0 right-0 w-36 sm:w-48 lg:w-56">
             <Image
-              src="/Hero1.png" // Replace with the actual image path
+              src="/Hero1.png"
               width={400}
               height={200}
               alt="Car Image"
@@ -48,7 +48,7 @@ const HeroSection: React.FC = () => {
           </div>
           <div className="absolute bottom-0 right-0 w-40  sm:w-48 lg:w-56">
             <Image
-              src="/Hero2.png" // Replace with the actual image path
+              src="/Hero2.png"
               width={406}
               height={116}
               alt="Car Image"
@@ -70,7 +70,10 @@ const HeroSection: React.FC = () => {
               defaultChecked
               className="w-4 h-4 accent-blue-600"
             />
-            <label htmlFor="pickup" className="text-sm sm:text-lg font-medium text-gray-700">
+            <label
+              htmlFor="pickup"
+              className="text-sm sm:text-lg font-medium text-gray-700"
+            >
               Pick-Up
             </label>
           </div>
@@ -82,6 +85,10 @@ const HeroSection: React.FC = () => {
               </label>
               <select className="w-full border border-gray-300 rounded-lg p-2 text-sm text-gray-700 focus:ring-blue-500 focus:border-blue-500">
                 <option>Select your city</option>
+                <option>Karachi</option>
+                <option>Lahore</option>
+                <option>Islamabad</option>
+                <option>Multan</option>
               </select>
             </div>
 
@@ -125,7 +132,10 @@ const HeroSection: React.FC = () => {
               name="booking-type"
               className="w-4 h-4 accent-blue-600"
             />
-            <label htmlFor="dropoff" className="text-sm sm:text-lg font-medium text-gray-700">
+            <label
+              htmlFor="dropoff"
+              className="text-sm sm:text-lg font-medium text-gray-700"
+            >
               Drop-Off
             </label>
           </div>
@@ -137,6 +147,10 @@ const HeroSection: React.FC = () => {
               </label>
               <select className="w-full border border-gray-300 rounded-lg p-2 text-sm text-gray-700 focus:ring-blue-500 focus:border-blue-500">
                 <option>Select your city</option>
+                <option>Karachi</option>
+                <option>Lahore</option>
+                <option>Islamabad</option>
+                <option>Multan</option>
               </select>
             </div>
 

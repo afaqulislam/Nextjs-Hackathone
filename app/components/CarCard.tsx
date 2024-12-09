@@ -3,7 +3,7 @@ import { BsFuelPumpDieselFill } from "react-icons/bs";
 import { MdOutlinePlaylistAddCheckCircle } from "react-icons/md";
 import { FaUserGroup } from "react-icons/fa6";
 import { AiOutlineHeart } from "react-icons/ai"; // Import the heart icon
-
+import Image from "next/image";
 // Define the types for the CarCard component props
 type CarCardProps = {
   name: string;
@@ -41,7 +41,13 @@ export const CarCard: React.FC<CarCardProps> = ({
       </div>
 
       {/* Car Image */}
-      <img src={image} alt={name} className="w-full object-contain mb-4 h-40" />
+      <Image
+        src={image}
+        alt={name}
+        width={300}
+        height={200}
+        className="w-full object-contain mb-4 h-40"
+      />
 
       {/* Features */}
       <div className="flex justify-between text-sm text-gray-500 mb-4">

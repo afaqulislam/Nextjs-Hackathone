@@ -5,9 +5,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-white border-t w-full border-gray-200">
       <div className="px-6 py-12 max-w-7xl mx-auto">
-        {/* Top Section */}
         <div className="flex flex-col lg:flex-row justify-between gap-8">
-          {/* Logo and Vision */}
           <div className="flex-1">
             <h1 className="text-2xl font-bold text-[#3563E9]">MORENT</h1>
             <p className="text-sm text-gray-600 mt-4 leading-relaxed max-w-xs">

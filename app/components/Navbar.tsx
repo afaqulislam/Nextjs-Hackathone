@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
         {/* Profile */}
         <div className="w-8 h-8 md:w-10 md:h-10 rounded-full overflow-hidden border border-gray-300">
           <Image
-            src="/profile.png" // Replace with the actual image path
+            src="/profile.png"
             alt="Profile Picture"
             width={40}
             height={40}
@@ -91,7 +91,7 @@ const Navbar: React.FC = () => {
         {/* Profile for Mobile */}
         <div className="w-8 h-8 rounded-full overflow-hidden border border-gray-300">
           <Image
-            src="/profile.png" // Replace with the actual image path
+            src="/profile.png"
             alt="Profile Picture"
             width={32}
             height={32}
