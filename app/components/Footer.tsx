@@ -1,10 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import React from "react";
 
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
     <footer className="bg-white border-t w-full border-gray-200">
-      <div className="px-6 py-12 max-w-7xl mx-auto">
+      <div className="px-6 py-12 ">
         <div className="flex flex-col lg:flex-row justify-between gap-8">
           <div className="flex-1">
             <h1 className="text-2xl font-bold text-[#3563E9]">MORENT</h1>

@@ -1,59 +1,52 @@
+"use client";
+
 import React from "react";
-import Image from "next/image";
 import { MdOutlineSwapVert } from "react-icons/md";
 
 const HeroSection: React.FC = () => {
   return (
     <section className="px-4 sm:px-6 lg:px-12 py-8 bg-gray-50">
       {/* Cards Section */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
-        {/* Left Card */}
-        <div className="bg-blue-500 text-white rounded-xl p-6 lg:p-8 shadow-lg relative overflow-hidden">
-          <div className="max-w-full">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4">
-              The Best Platform for Car Rental
-            </h2>
-            <p className="text-sm sm:text-base leading-relaxed mb-6">
-              Ease of doing a car rental safely and reliably. Of course at a low
-              price.
-            </p>
-            <button className="bg-blue-700 hover:bg-blue-600 text-white font-medium py-2 px-4 lg:px-6 rounded">
-              Rental Car
-            </button>
+      <div className="mx-auto max-w-[1700px] px-4 md:px-10 mt-10">
+        <div className="flex flex-wrap justify-center gap-6 lg:flex-nowrap">
+          {/* First Card */}
+          <div className="relative bg-[#54A6FF] text-white flex flex-col rounded-lg pt-8 pl-8 w-full px-10 sm:px-6 lg:flex-1">
+            <div className="relative z-10">
+              <h1 className="text-white text-[2.2rem] sm:text-[1.8rem] leading-snug tracking-normal">
+                The Best Platform for Car Rental
+              </h1>
+              <p className="text-lg mt-5">
+                Ease of doing a car rental safely and reliably. Of course at a low price.
+              </p>
+              <button className="bg-[#3563E9] w-36 h-14 text-xl mt-8 rounded-md">
+                Rental Car
+              </button>
+              <img
+                src="/Hero1.png"
+                alt="Car 1"
+                className="mx-auto mt-8 w-[90%] sm:w-full sm:mb-5 lg:w-[80%]"
+              />
+            </div>
           </div>
-          <div className="absolute bottom-0 right-0 w-36 sm:w-48 lg:w-56">
-            <Image
-              src="/Hero1.png"
-              width={400}
-              height={200}
-              alt="Car Image"
-              className="object-contain relative right-10"
-            />
-          </div>
-        </div>
 
-        {/* Right Card */}
-        <div className="bg-blue-600 text-white rounded-xl p-6 lg:p-8 shadow-lg relative overflow-hidden">
-          <div className="max-w-full">
-            <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-4">
-              Easy way to rent a car at a low price
-            </h2>
-            <p className="text-sm sm:text-base leading-relaxed mb-6">
-              Providing cheap car rental services and safe and comfortable
-              facilities.
-            </p>
-            <button className="bg-blue-500 hover:bg-blue-700 text-white font-medium py-2 px-4 lg:px-6 rounded">
-              Rental Car
-            </button>
-          </div>
-          <div className="absolute bottom-0 right-0 w-40  sm:w-48 lg:w-56">
-            <Image
-              src="/Hero2.png"
-              width={406}
-              height={116}
-              alt="Car Image"
-              className="object-contain relative right-10"
-            />
+          {/* Second Card */}
+          <div className="relative bg-[#3563E9] text-white flex flex-col rounded-lg pt-8 pl-8 pb-4 w-full px-6 sm:px-6 lg:flex-1">
+            <div className="relative z-10">
+              <h1 className="text-white text-[2.2rem] sm:text-[1.8rem] leading-snug tracking-normal">
+                Easy way to rent a car at a low price
+              </h1>
+              <p className="text-lg mt-5">
+                Providing cheap car rental services and safe and comfortable facilities.
+              </p>
+              <button className="bg-[#54A6FF] w-36 h-14 text-xl mt-8 rounded-md">
+                Rental Car
+              </button>
+              <img
+                src="/Hero2.png"
+                alt="Car 2"
+                className="mx-auto mt-8 w-[90%] sm:w-full sm:mb-5 lg:w-[70%]"
+              />
+            </div>
           </div>
         </div>
       </div>
